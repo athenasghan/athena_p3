@@ -19,52 +19,267 @@
               "props": {
                 "style": {
                   "height": "100px",
-                  "backgroundColor": "#fcecd7",
                   "borderRadius": "4px",
                   "textAlign": "center",
                   "paddingTop": "40px",
-                  "paddingBottom": "40px"
+                  "paddingBottom": "40px",
+                  "width": "100%"
                 }
               },
               "children": [
                 {
                   "type": "span",
-                  "text": "Hello Colorful World 🖍",
+                  "text": "Introduction ",
                   "props": {
                     "style": {
                       "lineHeight": "20px",
-                      "backgroundColor": "#b8e986",
-                      "color": "#4a90e2"
+                      "color": "#4a90e2",
+                      "fontSize": "31px",
+                      "fontWeight": 600,
+                      "fontStyle": "normal"
                     }
                   }
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "pageName": "Page6",
-      "pagePath": "/work",
-      "children": [
-        {
-          "type": "div",
-          "children": [
+            },
             {
-              "type": "h3",
-              "props": {
-                "style": {
-                  "textAlign": "center",
-                  "padding": "15px"
-                }
-              },
+              "type": "div",
+              "variant": "default",
+              "props": {},
               "children": [
                 {
-                  "type": "span",
-                  "text": "work page"
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "flex",
+                      "justifyContent": "center",
+                      "height": "400px",
+                      "alignItems": "center",
+                      "backgroundColor": "#4a90e2",
+                      "borderRadius": "4px",
+                      "width": "100%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "h1",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "right": "300px",
+                          "bottom": "300px",
+                          "fontStyle": "normal",
+                          "fontWeight": 500,
+                          "color": "#000000",
+                          "fontSize": "30px",
+                          "wordSpacing": "9px",
+                          "paddingTop": "8px",
+                          "paddingBottom": "8px",
+                          "paddingLeft": "8px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "한슬기",
+                          "props": {
+                            "style": {
+                              "top": "22px",
+                              "color": "#ffffff",
+                              "letterSpacing": "3px",
+                              "lineHeight": "25px"
+                            }
+                          }
+                        },
+                        {
+                          "type": "h2",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "fontSize": "30px",
+                              "margin": "5px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "\"안녕하세요 한슬기입니다\"",
+                              "props": {
+                                "style": {
+                                  "fontSize": "24px"
+                                }
+                              }
+                            },
+                            {
+                              "type": "h3",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "marginRight": "14px",
+                                  "marginBottom": "10px",
+                                  "marginTop": "17px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "https://raw.githubusercontent.com/athenasghan/athena_p2/master/strayy_night.jpg",
+                                    "style": {
+                                      "width": "80%",
+                                      "height": "100%"
+                                    }
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "https://www.facebook.com/athena.han.7140"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "h4",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontSize": "27px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "SNS",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "24px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "a",
+                                  "variant": "default",
+                                  "props": {
+                                    "href": "https://www.facebook.com/athena.han.7140"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": " Facebook",
+                                      "props": {
+                                        "style": {
+                                          "color": "#2631df"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
+            },
+            {
+              "type": "footer",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Video"
+                    },
+                    {
+                      "type": "video",
+                      "variant": "default",
+                      "props": {
+                        "autoPlay": true,
+                        "loop": true,
+                        "muted": true,
+                        "style": {
+                          "height": "50%",
+                          "width": "50%",
+                          "overflow": "auto",
+                          "display": "block"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "source",
+                          "props": {
+                            "src": "https://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4",
+                            "type": "video/mp4"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "props": {}
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "flex",
+                      "justifyContent": "center",
+                      "height": "100px",
+                      "alignItems": "center",
+                      "backgroundColor": "#fcecd7",
+                      "borderRadius": "4px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "Center",
+                      "variant": "default",
+                      "children": [],
+                      "namespace": "CSSPaterns",
+                      "props": {
+                        "axis": "xy"
+                      }
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {},
+                      "children": [],
+                      "text": "Text"
+                    },
+                    {
+                      "type": "span",
+                      "text": "Empty div",
+                      "props": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Center",
+              "variant": "default",
+              "children": [],
+              "namespace": "CSSPaterns"
             }
           ]
         }
