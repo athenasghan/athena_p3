@@ -19,7 +19,7 @@ injectGlobal`
   /* Icons */
   /* Body Styles */
   body {
-
+    background: white;
   }
   ${appStyle}
 `
